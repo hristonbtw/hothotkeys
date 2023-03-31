@@ -97,6 +97,16 @@ span::before {
     display: none;
   }
 }
+
+@media (max-width: 767px) {
+  .text-center-ascii {
+  font-size: 12px;
+  }
+  .info {
+    font-size: 12px;
+  }
+}
+
 @keyframes fade{
   to {
     opacity: 0;
